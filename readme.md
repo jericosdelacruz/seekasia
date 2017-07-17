@@ -1,3 +1,34 @@
+This exercise uses Laravel 5.2
+
+Make sure you satisfy the following requirements: 
+- PHP >= 5.5.9
+- OpenSSL PHP Extension
+- PDO PHP Extension
+- Mbstring PHP Extension
+- Tokenizer PHP Extension
+
+- Install composer on your local machine if you don't have one on your machine
+Please refer to this link for more info: https://getcomposer.org/
+- execute the command 'composer install'
+- chmod -R 777 storage && chmod -R 777 bootstrap/cache
+- create a database with any name
+- create .env.sample file to .env file and replace the DB credentials with your credentials and the name of the database that you created in the previous step
+
+Run the following commands in order:
+- php artisan migrate
+- php artisan db:seed
+- php artisan serve
+
+You can now test it in your browser by going to http://localhost:8000
+
+If you like to try the test script, run the command below 
+./vendor/bin/phpunit
+
+
+TestCases are located in /tests
+
+#==============================================================#
+
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
