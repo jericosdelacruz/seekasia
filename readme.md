@@ -22,7 +22,7 @@ Run the following commands in order:
 You can now test it in your browser by going to http://localhost:8000
 
 If you like to try the test script, run the command below 
-./vendor/bin/phpunit
+- ./vendor/bin/phpunit
 
 
 TestCases are located in /tests
